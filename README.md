@@ -12,7 +12,7 @@ Dado o workflow acima, o desafio envolve a captura de informações no agente, s
 * Docker
 
 ### Detalhes
-* **WS Server:** Servidor WebSocket responsável por receber conexões do agent e conectar com uma fila;
+* **WS Server:** Servidor WebSocket responsável por receber conexões do agente e conectar com uma fila;
 * **WS Agent:** Conectará no WS Server e enviará informações do host (ex: cpu, mem, hd);
 * **Queue:** Responsável por armazenar as informações recebidas do agent.
 * **Consumer:** Responsável por ler a fila e tratar os dados e salvá-los no banco de dados.
